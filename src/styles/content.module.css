@@ -6,9 +6,8 @@
   padding: 0;
 }
 .contentSection {
-  background-color: pink;
   align-items: flex-start;
-  background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%);
+  background: white;
   display: flex;
   min-height: 100%;
   justify-content: center;
@@ -90,12 +89,14 @@
   height: 50rem;
   width: 100%;
   background-color: #fff;
+  max-width: 80vw;
+  background-repeat: no-repeat;
 }
 .descriptionContainer button {
   position: absolute;
   padding: 1rem;
   border: none;
-  color: red;
+  color: grey;
   font-size: 2rem;
   background: transparent;
   cursor: pointer;
@@ -104,6 +105,7 @@
 }
 .descriptionContainer button:hover {
   transform: scale(1.1);
+  color: red;
 }
 .descriptionContainer h1 {
   font-family: "Quicksand", sans-serif;
@@ -111,13 +113,22 @@
 
   top: 1rem;
 }
+.descriptionContainer p {
+  margin-top: 1rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
 .imageTest {
   border-radius: 1rem;
   display: inline-block;
   width: 100%;
   background-size: 100% auto;
+
   background-repeat: no-repeat;
-  height: auto;
+
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
