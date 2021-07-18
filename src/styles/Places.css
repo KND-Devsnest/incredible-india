@@ -1,0 +1,131 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+* {
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+.placescontainer {
+  width: 50%;
+  position: absolute;
+}
+
+.bg-image {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+}
+.bg-image-cover {
+  opacity: 0.4;
+  width: 100%;
+}
+/* .slider-main {
+  margin: 0 auto;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.slide img {
+  position: absolute;
+  width: 15rem;
+  height: 25rem;
+  margin: 0 auto;
+}
+
+.slide {
+  position: relative;
+  transform: scale(0.7);
+  transition: transform 300ms;
+  opacity: 0.6;
+  height: 25rem;
+}
+
+.activeSlide {
+  position: relative;
+  transform: scale(1);
+  opacity: 1;
+}
+.title,
+.info {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  z-index: 3;
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  display: flex;
+}
+
+.title {
+  top: 65%;
+  margin-left: 0.6em;
+}
+.info {
+  top: 85%;
+  margin-left: 1em;
+}
+.arrow {
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow svg {
+  transition: color 300ms;
+  color: rgb(158, 158, 158);
+}
+
+.arrow svg:hover {
+  color: #68edff;
+}
+
+.next {
+  right: 0%;
+  top: 50%;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+}
+
+.write-up {
+  position: absolute;
+  width: 25rem;
+  height: 20rem;
+  right: 8rem;
+  bottom: 6rem;
+  /* border: 2px solid white; */
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0.5em);
+  border-radius: 0.3em;
+  border: 1px solid rgb(56, 56, 56);
+  border-radius: 1em;
+  padding: 1em;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.main-title,
+.main-info {
+  width: 100%;
+}
+.main-title {
+  text-align: center;
+}

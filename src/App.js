@@ -1,10 +1,11 @@
 import "./App.css";
-import Hero from "./components/Hero";
+// import Hero from "./components/Hero";
+import Places from "./components/Places";
 
 function App() {
   return (
     <div className="App">
-      <Hero />
+      <Places />
     </div>
   );
 }
