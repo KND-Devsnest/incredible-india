@@ -64,9 +64,9 @@ const Content = () => {
             className={styles.imageTest}
             style={{ backgroundImage: `url('${current.url}')` }}
           ></div>
-          <div className={styles.Content}></div>
-
-          <p>{current.description}</p>
+          <div className={styles.Content}>
+            <p>{current.description}</p>
+          </div>
         </div>
       ) : (
         <div className={styles.container}>
@@ -75,7 +75,7 @@ const Content = () => {
               <img src={place.url} alt="title" />
               <h3 className={styles.placeTitle}>{place.title}</h3>
               <p className={styles.summary}>
-                {truncate(place.description, 150)}
+                {truncate(place.description, 120)}
               </p>
               <button onClick={() => setCurrent(place)}>Read More</button>
             </div>
