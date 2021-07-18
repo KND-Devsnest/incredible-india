@@ -86,7 +86,6 @@ const Places = () => {
       <div className="write-up">
         <h1 className="main-title">{PlacesData[imageIndex].title}</h1>
         <h4 className="main-info">{PlacesData[imageIndex].info}</h4>
-        <button className="cta btn">Button</button>
       </div>
     </section>
   );
