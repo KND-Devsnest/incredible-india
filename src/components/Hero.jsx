@@ -11,7 +11,10 @@ const Hero = () => {
         muted="muted"
         loop="loop"
       >
-        <source src="https://aguyran.me/media/tourIndia1080Full.mp4" type="video/mp4" />
+        <source
+          src="https://aguyran.me/media/tourIndia1080Full.mp4"
+          type="video/mp4"
+        />
       </video>
       <h2 className={styles.heroCaption}>Incredible India</h2>
     </div>
