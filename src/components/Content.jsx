@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "../styles/content.module.css";
-import { Places as places } from "./Places";
+import { PlacesData as places } from "./PlacesData";
 const Content = () => {
   const [current, setCurrent] = useState("");
   const truncate = (text, n) => {
