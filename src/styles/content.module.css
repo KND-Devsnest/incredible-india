@@ -55,8 +55,33 @@
 }
 
 .descriptionContainer {
+  padding: 3rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
   text-align: center;
-  height: 40rem;
+  height: 80rem;
   width: 100%;
   background-color: red;
+}
+.descriptionContainer button {
+  position: absolute;
+  padding: 1rem;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  background: transparent;
+  right: 1rem;
+  top: 0.2rem;
+}
+.descriptionContainer h1 {
+  position: absolute;
+  top: 1rem;
+}
+.imageTest {
+  display: inline-block;
+  width: 100%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: auto;
 }

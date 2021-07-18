@@ -57,8 +57,15 @@ const Content = () => {
     <section className={styles.contentSection}>
       {current ? (
         <div className={styles.descriptionContainer}>
-          {<h2>{current.title}</h2>}
+          <h1>{current.title}</h1>
           <button onClick={() => setCurrent("")}>X</button>
+
+          <div
+            className={styles.imageTest}
+            style={{ backgroundImage: `url('${current.url}')` }}
+          ></div>
+          <div className={styles.Content}></div>
+
           <p>{current.description}</p>
         </div>
       ) : (
