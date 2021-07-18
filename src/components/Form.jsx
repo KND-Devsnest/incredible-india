@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/Form.module.css'
+import {Places} from '../Places';
 
 const validateEmail = (email) => {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -37,6 +38,7 @@ const Form = () => {
         }
         setFormData({...formData, isSubmitted: true})
     }
+    console.log(Places);
 
     return (
         <div className={styles.container}>
