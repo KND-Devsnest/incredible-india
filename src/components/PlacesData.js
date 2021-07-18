@@ -1,4 +1,4 @@
-const Places = [
+export const PlacesData = [
   {
     id: 1,
     image:
@@ -143,5 +143,3 @@ const Places = [
         `,
   },
 ];
-
-export { Places };
