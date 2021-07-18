@@ -62,7 +62,7 @@ const Form = () => {
             <label htmlFor="fullName">Full Name</label>
             <input
               type="text"
-              placeholder="Ex. Destro Buva"
+              placeholder="Ex. Destro"
               id="fullName"
               onChange={handleChange}
             />
@@ -81,6 +81,7 @@ const Form = () => {
           <div className={styles["input-div"]}>
             <label htmlFor="phoneNo">Phone No</label>
             <input
+              type="number"
               placeholder="Ex. 9800521035"
               id="phoneNo"
               onChange={handleChange}
