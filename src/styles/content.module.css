@@ -48,6 +48,7 @@
   width: 100%;
   height: 15rem;
   margin-bottom: 1rem;
+  border-radius: 0.75rem;
 }
 
 .random button {
@@ -107,7 +108,7 @@
 .descriptionContainer h1 {
   font-family: "Quicksand", sans-serif;
   position: absolute;
-  margin-bottom: 1rem;
+
   top: 1rem;
 }
 .imageTest {
@@ -117,5 +118,6 @@
   background-size: 100% auto;
   background-repeat: no-repeat;
   height: auto;
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
