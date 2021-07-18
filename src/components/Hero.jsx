@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "../styles/Hero.module.css";
+import Img from "../assets/images/hero.jpg";
 
 const Hero = () => {
   return (
     <div className={styles.container}>
       <video
-        poster="/content/dam/incredibleindia/video/home/monsoon-banner.jpg/jcr:content/renditions/cq5dam.web.1800.737.jpeg"
+        poster={Img}
         preload="auto"
         autoPlay="autoplay"
         muted="muted"
