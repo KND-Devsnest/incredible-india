@@ -86,6 +86,7 @@
   background-color: #fff;
   max-width: 80vw;
   background-repeat: no-repeat;
+  height: fit-content;
 }
 .descriptionContainer button {
   position: absolute;

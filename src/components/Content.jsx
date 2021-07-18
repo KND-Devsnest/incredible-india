@@ -13,10 +13,11 @@ const Content = () => {
           <h1>{current.title}</h1>
           <button onClick={() => setCurrent("")}>X</button>
 
-          <div
+          <img
             className={styles.imageTest}
-            style={{ backgroundImage: `url('${current.image}')` }}
-          ></div>
+            src={current.image}
+            alt={current.title}
+          />
           <div className={styles.Content}>
             <p>{current.info}</p>
           </div>
