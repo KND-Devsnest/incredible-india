@@ -1,0 +1,12 @@
+.container {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.heroCaption {
+  position: absolute;
+  bottom: 10em;
+  left: 10em;
+  color: #fff;
+}
