@@ -17,7 +17,7 @@
   overflow: hidden;
 }
 .placescontainer {
-  width: 50%;
+  width: 60%;
   position: relative;
 }
 
@@ -93,12 +93,12 @@ img {
 .title {
   width: fit-content;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 1.5rem;
   /* margin-left: 0.6em; */
 }
 .info {
   font-weight: 100;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .arrow {
   position: absolute;
@@ -127,47 +127,51 @@ img {
 
 .write-up {
   position: absolute;
-  width: 30rem;
-  height: fit-content;
-  right: 25%;
-  transform: translate(50%, 0);
+  width: 30%;
+  right: 0;
   gap: 2rem;
   /* border: 2px solid white; */
-  color: rgb(0, 0, 0);
+  color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  background: rgba(255, 255, 255, 1);
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(0.5em);
   border-radius: 0.3em;
-  border: 1px solid rgb(224, 224, 224);
-  border-radius: 1em;
+  /* border: 1px solid rgb(224, 224, 224); */
   padding: 1em;
   box-sizing: border-box;
   user-select: none;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100%;
 }
 .slider-heading {
-  width: 50em;
-  font-size: 2em;
-  height: 5em;
+  z-index: 1000;
+  width: 60%;
+  height: 30%;
+  font-size: 2.5rem;
+  font-weight: 900;
   position: absolute;
-  top: -25%;
-  left: 20%;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
   color: whitesmoke;
+  text-transform: uppercase;
 }
 .main-title,
 .main-info {
   width: 100%;
 }
 .main-title {
+  font-size: 4rem;
   text-align: center;
   font-weight: 400;
-  text-decoration: underline;
 }
 .main-info {
   font-weight: 200;
+  font-size: 1.5rem;
 }
 .exp-div {
   width: 70em;
@@ -194,6 +198,9 @@ img {
   display: none;
 }
 @media (max-width: 768px) {
+  body {
+    font-size: 8px;
+  }
   .carousel {
     position: relative;
     width: 100%;
@@ -212,11 +219,33 @@ img {
     height: 25rem;
     width: 40em;
   }
+
+  .title {
+    font-size: 1rem;
+  }
+  .info {
+    font-size: 0.5rem;
+  }
+
   .write-up {
-    height: 20rem;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0.7);
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 60%;
+  }
+  .main-title {
+    font-size: 2rem;
+  }
+  .main-info {
+    font-size: 1rem;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 1rem;
+    max-height: 5rem;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
   }
   .bg-image {
     position: absolute;

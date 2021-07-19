@@ -65,6 +65,9 @@ const Places = () => {
 
   return (
     <section id="placeSection" className="carousel">
+      <div className="slider-heading">
+        <h1 className="heading-title">Top Places</h1>
+      </div>
       <div className="bg-image">
         <img
           className="bg-image-cover"
@@ -75,9 +78,6 @@ const Places = () => {
       <div className="exp-div" />
       <div className="exp-div2" />
       <div className="placescontainer">
-        <div className="slider-heading">
-          <h1 className="heading-title">Top Places To Visit!</h1>
-        </div>
         <Slider {...settings}>
           {PlacesData.map((img, idx) => (
             <div
