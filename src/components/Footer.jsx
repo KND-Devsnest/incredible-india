@@ -45,13 +45,13 @@ const Footer = () => {
           <h4>Popular</h4>
           <ul className="random-items">
             <li>
-              <a href="#1">Place1</a>
+              <a href="#contentSection">Kashmir</a>
             </li>
             <li>
-              <a href="#2">Place2</a>
+              <a href="#contentSection">Ladakh</a>
             </li>
             <li>
-              <a href="#3">Place3</a>
+              <a href="#contentSection">Delhi</a>
             </li>
           </ul>
         </div>
