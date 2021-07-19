@@ -1,21 +1,30 @@
 import React from "react";
 import style from "../styles/Header.module.css";
+import { useEffect, useState } from "react";
 const Header = () => {
+  const [show, handleShow] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        handleShow(true);
+      } else handleShow(false);
+    });
+  });
   return (
-    <div className={style.header}>
+    <div className={show ? style.header : style.headerDark}>
       <h2 className={style.title}>
-        <a href="#">Incredible India</a>
+        <a href="#heroSection">Incredible India</a>
       </h2>
       <nav className={style.nav}>
         <ul className={style.nav_links}>
           <li>
-            <a href="#">Top Places</a>
+            <a href="#placeSection">Top Places</a>
           </li>
           <li>
-            <a href="#">All Places</a>
+            <a href="#contentSection">All Places</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#formSection">Contact</a>
           </li>
         </ul>
         {/* <button className={style.button}>button1</button> */}

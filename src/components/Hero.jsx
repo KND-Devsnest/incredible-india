@@ -4,7 +4,7 @@ import Img from "../assets/images/hero.jpg";
 
 const Hero = () => {
   return (
-    <div className={styles.container}>
+    <div id="heroSection" className={styles.container}>
       <video
         poster={Img}
         preload="auto"

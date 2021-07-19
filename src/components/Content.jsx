@@ -7,7 +7,7 @@ const Content = () => {
     return text?.length > n ? text.substr(0, n - 1) + "..." : text;
   };
   return (
-    <section className={styles.contentSection}>
+    <section id="contentSection" className={styles.contentSection}>
       {current ? (
         <div className={styles.descriptionContainer}>
           <h1>{current.title}</h1>
@@ -29,7 +29,14 @@ const Content = () => {
               <img src={place.image} alt="title" />
               <h3 className={styles.placeTitle}>{place.title}</h3>
               <p className={styles.summary}>{truncate(place.info, 110)}</p>
-              <button onClick={() => setCurrent(place)}>Read More</button>
+              <button
+                onClick={() => {
+                  setCurrent(place);
+                  window.location.href = "#contentSection";
+                }}
+              >
+                Read More
+              </button>
             </div>
           ))}
         </div>
