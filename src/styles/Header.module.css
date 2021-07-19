@@ -8,7 +8,7 @@
 }
 
 .header {
-  position: absolute;
+  position: fixed;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -19,6 +19,19 @@
   backdrop-filter: blur(0.8rem);
   z-index: 10;
 }
+.headerDark {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  box-sizing: border-box;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  backdrop-filter: blur(0);
+  z-index: 10;
+}
+
 .nav {
   display: flex;
 }

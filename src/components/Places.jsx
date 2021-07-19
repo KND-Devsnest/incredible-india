@@ -64,7 +64,7 @@ const Places = () => {
   };
 
   return (
-    <section className="carousel">
+    <section id="placeSection" className="carousel">
       <div className="bg-image">
         <img
           className="bg-image-cover"

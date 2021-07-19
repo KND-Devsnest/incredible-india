@@ -45,7 +45,7 @@ const Form = () => {
   console.log(PlacesData);
 
   return (
-    <div className={styles.container}>
+    <div id="formSection" className={styles.container}>
       {formData.isSubmitted ? (
         <div className={styles["submitted-div"]}>
           <img
