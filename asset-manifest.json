@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/incredible-india/static/css/main.2b32cab0.chunk.css",
-    "main.js": "/incredible-india/static/js/main.3decfd3d.chunk.js",
-    "main.js.map": "/incredible-india/static/js/main.3decfd3d.chunk.js.map",
+    "main.css": "/incredible-india/static/css/main.8531b45b.chunk.css",
+    "main.js": "/incredible-india/static/js/main.b753f180.chunk.js",
+    "main.js.map": "/incredible-india/static/js/main.b753f180.chunk.js.map",
     "runtime-main.js": "/incredible-india/static/js/runtime-main.5eb88b28.js",
     "runtime-main.js.map": "/incredible-india/static/js/runtime-main.5eb88b28.js.map",
     "static/css/2.cac2cce8.chunk.css": "/incredible-india/static/css/2.cac2cce8.chunk.css",
-    "static/js/2.93185ff2.chunk.js": "/incredible-india/static/js/2.93185ff2.chunk.js",
-    "static/js/2.93185ff2.chunk.js.map": "/incredible-india/static/js/2.93185ff2.chunk.js.map",
+    "static/js/2.4cc4e37f.chunk.js": "/incredible-india/static/js/2.4cc4e37f.chunk.js",
+    "static/js/2.4cc4e37f.chunk.js.map": "/incredible-india/static/js/2.4cc4e37f.chunk.js.map",
     "static/js/3.20d841aa.chunk.js": "/incredible-india/static/js/3.20d841aa.chunk.js",
     "static/js/3.20d841aa.chunk.js.map": "/incredible-india/static/js/3.20d841aa.chunk.js.map",
     "index.html": "/incredible-india/index.html",
     "static/css/2.cac2cce8.chunk.css.map": "/incredible-india/static/css/2.cac2cce8.chunk.css.map",
-    "static/css/main.2b32cab0.chunk.css.map": "/incredible-india/static/css/main.2b32cab0.chunk.css.map",
-    "static/js/2.93185ff2.chunk.js.LICENSE.txt": "/incredible-india/static/js/2.93185ff2.chunk.js.LICENSE.txt",
+    "static/css/main.8531b45b.chunk.css.map": "/incredible-india/static/css/main.8531b45b.chunk.css.map",
+    "static/js/2.4cc4e37f.chunk.js.LICENSE.txt": "/incredible-india/static/js/2.4cc4e37f.chunk.js.LICENSE.txt",
     "static/media/facebook.db31e00e.svg": "/incredible-india/static/media/facebook.db31e00e.svg",
     "static/media/hero.8b9b57e9.jpg": "/incredible-india/static/media/hero.8b9b57e9.jpg",
-    "static/media/incredible-cropped.53afdcc9.svg": "/incredible-india/static/media/incredible-cropped.53afdcc9.svg",
     "static/media/instagram.bf585f95.svg": "/incredible-india/static/media/instagram.bf585f95.svg",
     "static/media/linkedin.4f6db345.svg": "/incredible-india/static/media/linkedin.4f6db345.svg",
     "static/media/mail.438274b5.svg": "/incredible-india/static/media/mail.438274b5.svg",
@@ -28,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.5eb88b28.js",
     "static/css/2.cac2cce8.chunk.css",
-    "static/js/2.93185ff2.chunk.js",
-    "static/css/main.2b32cab0.chunk.css",
-    "static/js/main.3decfd3d.chunk.js"
+    "static/js/2.4cc4e37f.chunk.js",
+    "static/css/main.8531b45b.chunk.css",
+    "static/js/main.b753f180.chunk.js"
   ]
 }
