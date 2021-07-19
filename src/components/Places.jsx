@@ -15,10 +15,10 @@ const Places = () => {
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="feather feather-chevron-right"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="feather feather-chevron-right"
         >
           <polyline points="9 18 15 12 9 6" />
         </svg>
@@ -36,10 +36,10 @@ const Places = () => {
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="feather feather-chevron-left"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="feather feather-chevron-left"
         >
           <polyline points="15 18 9 12 15 6" />
         </svg>
@@ -72,13 +72,23 @@ const Places = () => {
           alt="img"
         ></img>
       </div>
+      <div className="exp-div" />
+      <div className="exp-div2" />
       <div className="placescontainer">
+        <div className="slider-heading">
+          <h1 className="heading-title">Top Places To Visit!</h1>
+        </div>
         <Slider {...settings}>
           {PlacesData.map((img, idx) => (
-            <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
+            <div
+              key={idx}
+              className={idx === imageIndex ? "slide activeSlide" : "slide"}
+            >
               <img src={img.image} alt={img.image} />
-              <h2 className="title">{img.title}</h2>
-              <h4 className="info">{img.subtitle}</h4>
+              <div className="bg-div">
+                <h2 className="title">{img.title}</h2>
+                <h4 className="info">{img.subtitle}</h4>
+              </div>
             </div>
           ))}
         </Slider>
