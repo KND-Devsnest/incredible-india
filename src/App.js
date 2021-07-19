@@ -4,6 +4,7 @@ import Places from "./components/Places";
 import Content from "./components/Content";
 import Form from "./components/Form";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Places />
       <Content />
       <Form />
+      <Footer />
     </div>
   );
 }

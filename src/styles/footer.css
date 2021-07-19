@@ -1,0 +1,92 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #073e4b;
+  width: 100%;
+  height: 20rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.main-footer {
+  padding-top: 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #063b47;
+  width: 100%;
+  height: 16rem;
+}
+
+.explore-items,
+.legal-items,
+.random-items,
+.contact-items {
+  list-style-type: none;
+}
+
+.explore-items li,
+.legal-items li,
+.random-items li,
+.contact-items li {
+  /* display: block; */
+  display: flex;
+  padding-top: 1rem;
+}
+
+.contact-items li img {
+  margin-top: 0.2rem;
+  margin-right: 0.5rem;
+}
+
+.move-to-top {
+  text-align: center;
+  background-color: #052b31;
+  width: 100%;
+  height: 4rem;
+}
+
+.move-to-top img {
+  cursor: pointer;
+  width: 10%;
+  height: 4rem;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+  width: 10rem;
+}
+
+.social-buttons div {
+  height: 1.6rem;
+  width: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.social-buttons div:hover {
+  cursor: pointer;
+  background-color: #185563;
+}
+
+li {
+  font-size: 0.9rem;
+}
+
+li:hover {
+  color: aqua;
+}
+
+.contact-items li {
+  font-size: 1rem;
+}
