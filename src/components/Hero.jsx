@@ -17,7 +17,12 @@ const Hero = () => {
           type="video/mp4"
         />
       </video>
-      <h2 className={styles.heroCaption}>Incredible India</h2>
+      <div className={styles.overlay}></div>
+      <h2 className={styles.heroCaption}>
+        Incredible
+        <br />
+        <span>India</span>
+      </h2>
     </div>
   );
 };

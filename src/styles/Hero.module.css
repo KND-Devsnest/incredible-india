@@ -6,9 +6,36 @@
 
 .heroCaption {
   position: absolute;
-  bottom: 10em;
-  left: 10em;
+  /* bottom: 10%;
+  left: 10%; */
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  font-size: 5vw;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1rem;
   color: #fff;
+  z-index: 3;
+  opacity: 0.6;
+}
+
+.heroCaption span {
+  font-size: 20vw;
+
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.7;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 2;
 }
 
 video {
