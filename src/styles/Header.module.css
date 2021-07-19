@@ -23,6 +23,7 @@
   display: flex;
 }
 .title {
+  color: whitesmoke;
   user-select: none;
 }
 li,
