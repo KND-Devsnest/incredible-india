@@ -87,8 +87,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="move-to-top">
-        <img src={logo} alt="" />
+      <div className="footer-copyright">
+        {/* <img src={logo} alt="" /> */}
+        Incredible India
       </div>
     </footer>
   );

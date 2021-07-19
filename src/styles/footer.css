@@ -90,3 +90,11 @@ li:hover {
 .contact-items li {
   font-size: 1rem;
 }
+
+.footer-copyright {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  color: #eee;
+  font-size: 2rem;
+}
