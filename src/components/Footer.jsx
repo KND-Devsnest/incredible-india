@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/footer.css";
-import logo from "../assets/incredible-cropped.svg";
+// import logo from "../assets/incredible-cropped.svg";
 import fb from "../assets/icons/facebook.svg";
 import insta from "../assets/icons/instagram.svg";
 import twitter from "../assets/icons/twitter.svg";
