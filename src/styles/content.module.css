@@ -83,6 +83,12 @@
 
   transition: 250ms ease-in;
 }
+.random h3 {
+  font-size: 1.5rem;
+}
+.random p {
+  font-size: 0.9rem;
+}
 
 .descriptionContainer {
   border-radius: 1rem;
