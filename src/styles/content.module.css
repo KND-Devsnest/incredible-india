@@ -127,7 +127,7 @@
 .descriptionContainer h1 {
   font-family: "Quicksand", sans-serif;
   position: absolute;
-
+  font-size: 1.5rem;
   top: 1rem;
 }
 .descriptionContainer p {
