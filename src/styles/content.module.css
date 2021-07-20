@@ -84,7 +84,7 @@
   transition: 250ms ease-in;
 }
 .random h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 .random p {
   font-size: 0.9rem;
@@ -133,6 +133,7 @@
 .descriptionContainer p {
   margin-top: 1rem;
   font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
   text-align: justify;
   background-color: white;
   padding: 1rem;
